@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E19900B032D4241A5B4F91DC63E053D9"
-               BuildableName = "Pods_Snapchat.framework"
-               BlueprintName = "Pods-Snapchat"
-               ReferencedContainer = "container:Pods.xcodeproj">
+               BlueprintIdentifier = "904CE7F6FD8F052103AD969B7DA522E3"
+               BuildableName = "SDWebImage.framework"
+               BlueprintName = "SDWebImage"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,10 +47,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E19900B032D4241A5B4F91DC63E053D9"
-            BuildableName = "Pods_Snapchat.framework"
-            BlueprintName = "Pods-Snapchat"
-            ReferencedContainer = "container:Pods.xcodeproj">
+            BlueprintIdentifier = "904CE7F6FD8F052103AD969B7DA522E3"
+            BuildableName = "SDWebImage.framework"
+            BlueprintName = "SDWebImage"
+            ReferencedContainer = "container:Pods/Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
