@@ -8,14 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		37297CE441A0684069108DC4 /* Pods_Snapchat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF5DA635D4D928FB27CC15BE /* Pods_Snapchat.framework */; };
+		EA2D1D3B20E998E0005A09CB /* DesignableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2D1D3A20E998E0005A09CB /* DesignableTextField.swift */; };
 		EA3AD5B520B4CD9600A7D877 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3AD5B420B4CD9600A7D877 /* AppDelegate.swift */; };
 		EA3AD5B720B4CD9600A7D877 /* iniciarSesionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3AD5B620B4CD9600A7D877 /* iniciarSesionViewController.swift */; };
-		EA3AD5BA20B4CD9600A7D877 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA3AD5B820B4CD9600A7D877 /* Main.storyboard */; };
 		EA3AD5BC20B4CD9600A7D877 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA3AD5BB20B4CD9600A7D877 /* Assets.xcassets */; };
-		EA3AD5BF20B4CD9600A7D877 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA3AD5BD20B4CD9600A7D877 /* LaunchScreen.storyboard */; };
 		EA3AD5C720B4CE5F00A7D877 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA3AD5C620B4CE5F00A7D877 /* GoogleService-Info.plist */; };
 		EA3AD5CA20B4DB1D00A7D877 /* SnapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3AD5C920B4DB1D00A7D877 /* SnapsViewController.swift */; };
 		EA3AD5CC20B4EAC700A7D877 /* ImagenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3AD5CB20B4EAC700A7D877 /* ImagenViewController.swift */; };
+		EA619DE820D1D2F2003C44BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA619DE620D1D2F2003C44BF /* Main.storyboard */; };
+		EA619DE920D1D2F2003C44BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA619DE720D1D2F2003C44BF /* LaunchScreen.storyboard */; };
 		EAEE4B9E20B6961500CBCCDA /* ElegirUsuarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEE4B9D20B6961500CBCCDA /* ElegirUsuarioViewController.swift */; };
 		EAF00CD020BF3026007FD8C5 /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF00CCF20BF3026007FD8C5 /* Usuario.swift */; };
 		EAF00CD220BF3C94007FD8C5 /* Snap.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF00CD120BF3C94007FD8C5 /* Snap.swift */; };
@@ -25,17 +26,18 @@
 /* Begin PBXFileReference section */
 		349161C0FD35D845C5D6B2DB /* Pods-Snapchat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snapchat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Snapchat/Pods-Snapchat.debug.xcconfig"; sourceTree = "<group>"; };
 		A7B844A602C2937E9A02335F /* Pods-Snapchat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snapchat.release.xcconfig"; path = "Pods/Target Support Files/Pods-Snapchat/Pods-Snapchat.release.xcconfig"; sourceTree = "<group>"; };
+		EA2D1D3A20E998E0005A09CB /* DesignableTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableTextField.swift; sourceTree = "<group>"; };
 		EA3AD5B120B4CD9600A7D877 /* Snapchat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snapchat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA3AD5B420B4CD9600A7D877 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA3AD5B620B4CD9600A7D877 /* iniciarSesionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iniciarSesionViewController.swift; sourceTree = "<group>"; };
-		EA3AD5B920B4CD9600A7D877 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA3AD5BB20B4CD9600A7D877 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EA3AD5BE20B4CD9600A7D877 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA3AD5C020B4CD9600A7D877 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA3AD5C620B4CE5F00A7D877 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		EA3AD5C820B4D92400A7D877 /* Snapchat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Snapchat.entitlements; sourceTree = "<group>"; };
 		EA3AD5C920B4DB1D00A7D877 /* SnapsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapsViewController.swift; sourceTree = "<group>"; };
 		EA3AD5CB20B4EAC700A7D877 /* ImagenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagenViewController.swift; sourceTree = "<group>"; };
+		EA619DE620D1D2F2003C44BF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		EA619DE720D1D2F2003C44BF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EAEE4B9D20B6961500CBCCDA /* ElegirUsuarioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElegirUsuarioViewController.swift; sourceTree = "<group>"; };
 		EAF00CCF20BF3026007FD8C5 /* Usuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
 		EAF00CD120BF3C94007FD8C5 /* Snap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snap.swift; sourceTree = "<group>"; };
@@ -96,12 +98,13 @@
 				EAF00CCC20BF2FDD007FD8C5 /* Modelos */,
 				EAF00CCB20BF2F7A007FD8C5 /* ViewControllers */,
 				EA3AD5C820B4D92400A7D877 /* Snapchat.entitlements */,
+				EA619DE720D1D2F2003C44BF /* LaunchScreen.storyboard */,
+				EA619DE620D1D2F2003C44BF /* Main.storyboard */,
 				EA3AD5B420B4CD9600A7D877 /* AppDelegate.swift */,
-				EA3AD5B820B4CD9600A7D877 /* Main.storyboard */,
 				EA3AD5BB20B4CD9600A7D877 /* Assets.xcassets */,
-				EA3AD5BD20B4CD9600A7D877 /* LaunchScreen.storyboard */,
 				EA3AD5C620B4CE5F00A7D877 /* GoogleService-Info.plist */,
 				EA3AD5C020B4CD9600A7D877 /* Info.plist */,
+				EA2D1D3A20E998E0005A09CB /* DesignableTextField.swift */,
 			);
 			path = Snapchat;
 			sourceTree = "<group>";
@@ -193,10 +196,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA3AD5BF20B4CD9600A7D877 /* LaunchScreen.storyboard in Resources */,
 				EA3AD5BC20B4CD9600A7D877 /* Assets.xcassets in Resources */,
 				EA3AD5C720B4CE5F00A7D877 /* GoogleService-Info.plist in Resources */,
-				EA3AD5BA20B4CD9600A7D877 /* Main.storyboard in Resources */,
+				EA619DE920D1D2F2003C44BF /* LaunchScreen.storyboard in Resources */,
+				EA619DE820D1D2F2003C44BF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA3AD5B720B4CD9600A7D877 /* iniciarSesionViewController.swift in Sources */,
+				EA2D1D3B20E998E0005A09CB /* DesignableTextField.swift in Sources */,
 				EA3AD5CC20B4EAC700A7D877 /* ImagenViewController.swift in Sources */,
 				EAF00CD020BF3026007FD8C5 /* Usuario.swift in Sources */,
 				EA3AD5B520B4CD9600A7D877 /* AppDelegate.swift in Sources */,
@@ -266,25 +270,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		EA3AD5B820B4CD9600A7D877 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EA3AD5B920B4CD9600A7D877 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		EA3AD5BD20B4CD9600A7D877 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EA3AD5BE20B4CD9600A7D877 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		EA3AD5C120B4CD9600A7D877 /* Debug */ = {

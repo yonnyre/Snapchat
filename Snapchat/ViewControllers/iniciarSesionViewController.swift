@@ -14,9 +14,15 @@ class iniciarSesionViewController: UIViewController {
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
     
+    @IBOutlet weak var maibButton: UIButton!
+    
     override func viewDidLoad() {
        
         super.viewDidLoad()
+       maibButton.backgroundColor = UIColor.darkGray
+        maibButton.layer.cornerRadius = maibButton.frame.height / 2
+        maibButton.setTitleColor(UIColor.white, for: .normal)
+        maibButton.layer.shadowColor = UIColor.red.cgColor
         
     }
 
